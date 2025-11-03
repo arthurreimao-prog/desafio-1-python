@@ -66,6 +66,7 @@ def criar_conta(agencia, numero_conta, clientes, contas):
         if cliente["cpf"] == cpf:
             print ("Conta criada com sucesso.")
             contas.append({"agencia" : agencia, "numero_conta" : numero_conta, "cliente" : cliente})
+            return
     print("Usuário não cadastrado.")
 
 AGENCIA = "0001"
