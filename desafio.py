@@ -56,7 +56,7 @@ def cadastrar_usuario(clientes):
     bairro = input("Digite o bairro onde mora: ")
     cidade = input("Digite a cidade onde mora: ")
     estado = input("Digite o estado onde mora: ")
-    endereco = rua + ", " + numero + " - " + bairro.tittle() + " - " + cidade.title() + "/" + estado.upper()
+    endereco = rua + ", " + numero + " - " + bairro.title() + " - " + cidade.title() + "/" + estado.upper()
     clientes.append({"nome" : nome, "data_nascimento" : data_nascimento, "cpf": cpf, "endereco" : endereco})
     print ("Usuário criado com sucesso!")
 
